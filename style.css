@@ -63,4 +63,62 @@ body {
           font-size: 14px;
           font-weight: 600;
       }
+
+      .promo {
+        display: flex;
+        width: 70px;
+        margin: 100px auto;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .publish {
+        /* container styles if any */
+      }
+      
+      .publish h3 {
+        font-family: "Alegreya", serif;
+        font-size: 40px;
+        line-height: 48px;
+        color: #025157;
+        justify-content: right;
+      }
+      
+      .publish > p {
+        font-size: 16px;
+        color: #343434;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        justify-content: right;
+        text-align: left;
+      }
+      
+      .publish > form {
+        display: flex;
+      }
+      
+      .publish > form p {
+        color: #025157;
+        margin-right: 18px;
+      }
+
+      .fixed-header {
+        position: fixed;
+        right: 0px;
+        left: 0px;
+      }
+
+      .explanatory-video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .explanatory-video img {
+        top: 0px;
+        width: 120px;
+        margin-top: 10px;
+        background-color: #fffbf7;
+      }
+
     
