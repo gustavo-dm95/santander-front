@@ -1,7 +1,8 @@
 body {
-    background-color: #f49e47;
+    background-color: white;
     background-image: url('https://pro2-bar-s3-cdn-cf.myportfolio.com/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_1920.png');
     }
+
     h1 {
     color: #46484c;
     text-align: center;
@@ -74,10 +75,14 @@ body {
 
       .publish {
         /* container styles if any */
+        text-align: justify;
+        margin: 100px;
+        align-items: center;
+        justify-content: center;    
       }
       
       .publish h3 {
-        font-family: "Alegreya", serif;
+        font-family: "Verdana";
         font-size: 40px;
         line-height: 48px;
         color: #025157;
@@ -85,12 +90,12 @@ body {
       }
       
       .publish > p {
-        font-size: 16px;
+        font-family: "Verdana";
+        font-size: 15px;
         color: #343434;
         line-height: 1.5;
-        margin-bottom: 20px;
-        justify-content: right;
-        text-align: left;
+        margin-bottom: 50px;
+        justify-content: center;
       }
       
       .publish > form {
@@ -100,6 +105,7 @@ body {
       .publish > form p {
         color: #025157;
         margin-right: 18px;
+        font-family: "Verdana";
       }
 
       .fixed-header {
