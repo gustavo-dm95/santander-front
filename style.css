@@ -25,7 +25,8 @@ body {
 
     }
     .header {
-        margin: 80px 20px 0 20px;
+        background-color: blanchedalmond;
+        margin: 20px 20px 0 20px;
         font-size: 0%;
         line-height: 45px;
       }
@@ -50,8 +51,6 @@ body {
       }
 
       .navbar {
-
-    width: 70%;
     text-align: left;
     color: brown;
     font-weight: 500;
@@ -126,5 +125,23 @@ body {
         margin-top: 10px;
         background-color: #fffbf7;
       }
+   
+      .features {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
 
+      .features-art {
+        background-color: indianred;
+        margin: 10px;
+        width: 40%;
+        height: 50px;
+      }
+
+      article {
+        background-color: aqua;
+        margin: 150px;
+        width: 40%;
+        height: 50px;
+    }
     
